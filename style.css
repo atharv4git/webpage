@@ -2,7 +2,8 @@ body{
     font-family: 'Playfair Display', serif;
 }
 #links-outer{
-    margin: 0px 200px 0px 200px;
+    max-width: 80%;
+    min-width: 50%;
 }
 #medium-posts{
     margin: 50px;
@@ -11,6 +12,6 @@ body{
     padding: 0.5% 0.5% 0% 0.5%;
 }
 #div2{
-    margin-left: 35%;
-    margin-right: 35%;
+    max-width: 80%;
+    min-width: 50%;
 }
