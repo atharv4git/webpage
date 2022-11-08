@@ -16,9 +16,9 @@ body{
 }
 #div2{
     max-width: 80%;
-    min-width: 50%;
+    min-width: 60%;
 }
 #twit{
-    min-width: 10%;
-    max-width: 30%;
+    min-width: 50%;
+    max-width: 10%;
 }
