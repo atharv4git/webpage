@@ -44,3 +44,10 @@ body{
     font-size: 16px;
     transition: 1s;
 }
+progress {
+    text-align: middle;
+    padding: 10px;
+}
+progress:after {
+    content: attr(value)'%';
+}
