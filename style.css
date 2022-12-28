@@ -51,3 +51,18 @@ progress {
 progress:after {
     content: attr(value)'%';
 }
+
+#bdetail {
+    margin: 10px;
+    padding: 10px;
+}
+
+#bpic {
+    box-shadow: 1px 1px 50px 10px lightgray;
+    transition: 1s;
+}
+
+#bpic:hover {
+    box-shadow: 1px 1px 10px 1px black;
+    transition: 1s;
+}
