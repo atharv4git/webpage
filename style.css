@@ -60,11 +60,20 @@ progress:after {
 #bpic {
     box-shadow: 1px 1px 50px 10px lightgray;
     transition: 1s;
-    width: 50%;
-    height: relative;
+    max-width: 100px;
+    max-height: 200px;
 }
 
 #bpic:hover {
     box-shadow: 1px 1px 10px 1px black;
     transition: 1s;
+}
+
+#books{
+    max-height: 100px;
+    margin: 50px;
+}
+
+#deployed{
+    margin-top: 550px;
 }
